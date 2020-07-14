@@ -1,21 +1,81 @@
-<title>About me</title>
-<h1>About me</h1>
-<p>My name is Pat.</p>
-<p>Places I've lived:</p>
-<ol>
-    <li>San Jose, CA</li>
-    <li>Kenwood, CA</li>
-    <li>Vancouver, WA</li>
-    <li>Chehalis, WA</li>
-    <li>Boston, MA <em>(Boston University!)</em></li>
-    <li>Revere, MA</li>
-    <li>Beverly, MA</li>
-    <li>Rancho Santa Margarita, CA</li>
-    <li>Corona, CA</li>
-</ol>
-<details>
-    <summary>Read more</summary>
-    <p>Hidden text. Wonder how you rename "Details" to something else?</p>
-</details>
-<br>
-<footer>This is the footer. <strong>The end!</strong></footer>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            border: 1px solid white;
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+        }
+
+        h1 {
+            color: black;
+            font-size: 500 px;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            background-color: rgb(183, 0, 255);
+            border: 10px dashed yellow;
+            margin-top: 20px;
+            margin-right: 1000px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+            text-align: center;
+        }
+
+        .CA {
+            color: lightcoral;
+        }
+
+        .MA {
+            color: lightseagreen
+        }
+
+        .WA {
+            color: lightgreen
+        }
+
+        p,
+        footer,
+        details {
+            color: steelblue;
+        }
+
+        summary {
+            color: tomato
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ABOUT ME</h1>
+    <p>My name is Pat.</p>
+    <p>Places I've lived:</p>
+    <ol>
+        <li class="CA">San Jose, CA</li>
+        <li class="CA">Kenwood, CA</li>
+        <li class="WA">Vancouver, WA</li>
+        <li class="WA">Chehalis, WA</li>
+        <li class="MA">Boston, MA <em>(Boston University!)</em></li>
+        <li class="MA">Revere, MA</li>
+        <li class="MA">Beverly, MA</li>
+        <li class="CA">Rancho Santa Margarita, CA</li>
+        <li class="CA">Corona, CA</li>
+    </ol>
+
+    <!-- comment -->
+    <details>
+        <summary>Read more</summary>
+        <p>Hidden text. Wonder how you rename "Details" to something else?</p>
+    </details>
+    <br>
+    <footer>This is the footer. <strong>The end!</strong></footer>
+</body>
+
+</html>
