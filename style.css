@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid skyblue;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  font: 16px "Times New Roman";
+  margin: 8px;
+}
+
+h1 {
+  height: 430px;
+  color: black;
+  font-size: 500%;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: bolder;
+  border: 10px dashed yellow;
+  text-align: center;
+  background-image: url(https://www.dhresource.com/0x0/f2/albu/g6/M01/5C/75/rBVaR1rxDHaAZvXxAAISGLZb4HE038.jpg);
+  background-position: center;
+  margin: 53.6px 0px;
+}
+
+.CA {
+  color: lightcoral;
+}
+
+.MA {
+  color: lightseagreen
+}
+
+.WA {
+  color: lightgreen
+}
+
+p {
+  color: steelblue;
+  font-family: 'Fredericka the Great', cursive;
+  margin: 16px 0px;
+}
+
+p:not(#name) {
+  margin-left: 50px;
+}
+
+#name {
+  font-family: 'Monoton', cursive;
+  font-size: x-large;
+  margin-left: 25px;
+}
+
+footer {
+  color: steelblue;
+}
+
+details {
+  color: steelblue;
+}
+
+ol {
+  margin: 16px 0px;
+  display: block;
+  list-style-type: decimal;
+  font-family: 'Pacifico', cursive;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+li:hover {
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  margin-left: 70px;
+}
+
+summary {
+  color: tomato
+}
+
+strong {
+  font-weight: bold;
+}
